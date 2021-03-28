@@ -1,0 +1,29 @@
+[2021-03-27 13:58:38.373] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-03-27 13:58:38.373] [remoteagent] [info] Extension host agent started.
+[2021-03-27 13:58:38.449] [remoteagent] [info] [::ffff:127.0.0.1][0ecbf98d][ManagementConnection] New connection established.
+[2021-03-27 13:58:38.453] [remoteagent] [info] [::ffff:127.0.0.1][f48ec9af][ExtensionHostConnection] New connection established.
+[2021-03-27 13:58:40.893] [remoteagent] [info] [::ffff:127.0.0.1][f48ec9af][ExtensionHostConnection] <2647> Launched Extension Host Process.
+[2021-03-27 14:09:50.190] [remoteagent] [info] Installing extension: connorshea.vscode-ruby-test-adapter
+[2021-03-27 14:09:50.804] [remoteagent] [info] Downloaded extension: connorshea.vscode-ruby-test-adapter undefined
+[2021-03-27 14:09:50.931] [remoteagent] [info] Extracted extension to /home/miggys12/.vscode-server/extensions/.connorshea.vscode-ruby-test-adapter-0.8.0: connorshea.vscode-ruby-test-adapter
+[2021-03-27 14:09:50.937] [remoteagent] [info] Renamed to /home/miggys12/.vscode-server/extensions/connorshea.vscode-ruby-test-adapter-0.8.0
+[2021-03-27 14:09:50.942] [remoteagent] [info] Installation completed. connorshea.vscode-ruby-test-adapter
+[2021-03-27 14:09:51.091] [remoteagent] [info] Installing extension: hbenl.vscode-test-explorer
+[2021-03-27 14:09:51.582] [remoteagent] [info] Downloaded extension: hbenl.vscode-test-explorer undefined
+[2021-03-27 14:09:51.668] [remoteagent] [info] Extracted extension to /home/miggys12/.vscode-server/extensions/.hbenl.vscode-test-explorer-2.19.6: hbenl.vscode-test-explorer
+[2021-03-27 14:09:51.672] [remoteagent] [info] Renamed to /home/miggys12/.vscode-server/extensions/hbenl.vscode-test-explorer-2.19.6
+[2021-03-27 14:09:51.679] [remoteagent] [info] Installation completed. hbenl.vscode-test-explorer
+[2021-03-27 14:09:51.680] [remoteagent] [info] Extensions installed successfully: hbenl.vscode-test-explorer
+[2021-03-27 14:09:51.681] [remoteagent] [info] Extensions installed successfully: connorshea.vscode-ruby-test-adapter
+[2021-03-27 14:17:09.940] [remoteagent] [info] [::ffff:127.0.0.1][0ecbf98d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-03-27 14:17:10.957] [remoteagent] [info] [::ffff:127.0.0.1][f48ec9af][ExtensionHostConnection] <2647> Extension Host Process exited with code: 0, signal: null.
+[2021-03-27 14:17:10.957] [remoteagent] [info] Last EH closed, waiting before shutting down

@@ -1,0 +1,160 @@
+{
+	"name": "vscode-ruby-test-adapter",
+	"displayName": "Ruby Test Explorer",
+	"description": "Run your Ruby tests in the Sidebar of Visual Studio Code",
+	"icon": "img/ruby-test-explorer.png",
+	"author": "Connor Shea <connor.james.shea@gmail.com>",
+	"publisher": "connorshea",
+	"version": "0.8.0",
+	"license": "MIT",
+	"homepage": "https://github.com/connorshea/vscode-ruby-test-adapter",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/connorshea/vscode-ruby-test-adapter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/connorshea/vscode-ruby-test-adapter/issues"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"test",
+		"testing",
+		"rspec",
+		"minitest",
+		"mini_test",
+		"ruby",
+		"test explorer",
+		"test adapter"
+	],
+	"main": "out/main.js",
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"clean": "rimraf out *.vsix",
+		"build": "tsc",
+		"watch": "tsc -w",
+		"rebuild": "npm run clean && npm run build",
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"test": "npm run build && node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"split2": "^3.2.2",
+		"tslib": "^1.14.1",
+		"vscode-test-adapter-api": "^1.9.0",
+		"vscode-test-adapter-util": "^0.7.1"
+	},
+	"devDependencies": {
+		"@types/mocha": "^5.2.7",
+		"@types/split2": "^2.1.6",
+		"rimraf": "^2.7.1",
+		"typescript": "^3.9.7",
+		"vsce": "^1.81.1",
+		"vscode": "^1.1.37"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"extensionDependencies": [
+		"hbenl.vscode-test-explorer"
+	],
+	"activationEvents": [
+		"onLanguage:ruby",
+		"onLanguage:erb",
+		"workspaceContains:**/Rakefile",
+		"workspaceContains:**/Gemfile",
+		"workspaceContains:**/*.rb",
+		"onCommand:commandId"
+	],
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Ruby Test Explorer configuration",
+			"properties": {
+				"rubyTestExplorer.logpanel": {
+					"description": "Write diagnotic logs to an output panel.",
+					"type": "boolean",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.logfile": {
+					"description": "Write diagnostic logs to the given file.",
+					"type": "string",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.testFramework": {
+					"description": "Test framework to use by default, for example rspec or minitest.",
+					"type": "string",
+					"default": "auto",
+					"enum": [
+						"none",
+						"auto",
+						"rspec",
+						"minitest"
+					],
+					"enumDescriptions": [
+						"Disable Ruby Test Runner.",
+						"Automatically detect test framework for a given workspace using Bundler.",
+						"Use RSpec test framework.",
+						"Use Minitest test framework."
+					],
+					"scope": "resource"
+				},
+				"rubyTestExplorer.rspecCommand": {
+					"markdownDescription": "Define the command to run Rspec tests with, for example `bundle exec rspec`, `spring rspec`, or `rspec`.",
+					"default": "bundle exec rspec",
+					"type": "string",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.rspecDirectory": {
+					"markdownDescription": "The location of your RSpec directory relative to the root of the workspace.",
+					"default": "./spec/",
+					"type": "string",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.minitestCommand": {
+					"markdownDescription": "Define how to run Minitest with Rake, for example `./bin/rake`, `bundle exec rake` or `rake`.",
+					"default": "bundle exec rake",
+					"type": "string",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.minitestDirectory": {
+					"markdownDescription": "The location of your test directory relative to the root of the workspace.",
+					"default": "./test/",
+					"type": "string",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.filePattern": {
+					"markdownDescription": "The naming pattern for your tests.",
+					"default": [
+						"*_test.rb",
+						"test_*.rb",
+						"*_spec.rb"
+					],
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"scope": "resource"
+				},
+				"rubyTestExplorer.debuggerHost": {
+					"markdownDescription": "The host to connect the debugger to.",
+					"default": "127.0.0.1",
+					"type": "string",
+					"scope": "resource"
+				},
+				"rubyTestExplorer.debuggerPort": {
+					"markdownDescription": "The port to connect the debugger to.",
+					"default": "1234",
+					"type": "string",
+					"scope": "resource"
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"id": "246b8465-44fc-428c-9273-9020f8918e9c",
+		"publisherId": "a08da62e-2792-4d33-b850-85d612c75097",
+		"publisherDisplayName": "Connor Shea"
+	}
+}

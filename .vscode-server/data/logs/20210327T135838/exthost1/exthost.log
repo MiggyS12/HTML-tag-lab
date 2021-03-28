@@ -1,0 +1,73 @@
+[2021-03-27 13:58:41.135] [exthost] [info] extension host started
+[2021-03-27 13:58:41.163] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2021-03-27 13:58:41.163] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/emmet/dist/node/emmetNodeMain
+[2021-03-27 13:58:41.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-03-27 13:58:41.174] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-03-27 13:58:41.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-03-27 13:58:41.199] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/debug-auto-launch/dist/extension
+[2021-03-27 13:58:41.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-03-27 13:58:41.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/git/dist/main
+[2021-03-27 13:58:41.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-03-27 13:58:41.237] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/npm/dist/npmMain
+[2021-03-27 13:58:41.332] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-03-27 13:58:41.333] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/github/dist/extension.js
+[2021-03-27 13:58:41.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-03-27 13:58:41.403] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/merge-conflict/dist/mergeConflictMain
+[2021-03-27 13:58:41.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-03-27 13:58:41.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/testing-editor-contributions/dist/extension.js
+[2021-03-27 13:58:41.407] [exthost] [info] eager extensions activated
+[2021-03-27 13:58:41.437] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-03-27 13:58:41.437] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/ms-vscode.js-debug/src/extension.js
+[2021-03-27 14:02:12.925] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-03-27 14:02:12.926] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/configuration-editing/dist/configurationEditingMain
+[2021-03-27 14:02:12.930] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-03-27 14:02:12.930] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-03-27 14:02:12.960] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-03-27 14:02:12.960] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/typescript-language-features/dist/extension
+[2021-03-27 14:02:21.214] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-03-27 14:02:21.214] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/ms-vscode.node-debug2/out/src/extension
+[2021-03-27 14:02:21.230] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"extensionId":{"value":"ms-vscode.node-debug","_lower":"ms-vscode.node-debug"},"activationEvent":"onDebugInitialConfigurations"}
+[2021-03-27 14:02:21.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/ms-vscode.node-debug/dist/extension.js
+[2021-03-27 14:02:27.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2021-03-27 14:02:27.856] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/debug-server-ready/dist/extension
+[2021-03-27 14:03:38.983] [exthost] [info] ExtensionService#_doActivateExtension rebornix.ruby {"startup":false,"extensionId":{"value":"rebornix.ruby","_lower":"rebornix.ruby"},"activationEvent":"onLanguage:ruby"}
+[2021-03-27 14:03:38.984] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/extensions/rebornix.ruby-0.28.1/dist/client/ruby.js
+[2021-03-27 14:09:51.779] [exthost] [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer {"startup":false,"extensionId":{"value":"hbenl.vscode-test-explorer","_lower":"hbenl.vscode-test-explorer"},"activationEvent":"*"}
+[2021-03-27 14:09:51.779] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/extensions/hbenl.vscode-test-explorer-2.19.6/out/main.js
+[2021-03-27 14:09:52.003] [exthost] [info] ExtensionService#_doActivateExtension connorshea.vscode-ruby-test-adapter {"startup":false,"extensionId":{"value":"connorshea.vscode-ruby-test-adapter","_lower":"connorshea.vscode-ruby-test-adapter"},"activationEvent":"onLanguage:ruby"}
+[2021-03-27 14:09:52.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/miggys12/.vscode-server/extensions/connorshea.vscode-ruby-test-adapter-0.8.0/out/main.js
+[2021-03-27 14:13:09.200] [exthost] [error] [vscode.emmet] provider FAILED
+[2021-03-27 14:13:09.200] [exthost] [error] TypeError: Cannot read property 'find' of undefined
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/emmet/dist/node/emmetNodeMain.js:1:59690)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/extensions/emmet/dist/node/emmetNodeMain.js:1:58163)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:87:167643
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:57:7538
+	at new Promise (<anonymous>)
+	at Object.g [as asPromise] (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:57:7510)
+	at U.provideCompletionItems (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:87:167614)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:87:186065
+	at Se._withAdapter (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:87:176060)
+	at Se.$provideCompletionItems (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:87:186041)
+	at c._doInvokeHandler (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:90:10509)
+	at c._invokeHandler (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:90:10201)
+	at c._receiveRequest (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:90:8820)
+	at c._receiveOneMessage (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:90:7673)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:90:5782
+	at g.fire (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:57:1836)
+	at p.fire (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:65:15443)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:106:29119
+	at g.fire (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:57:1836)
+	at p.fire (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:65:15443)
+	at t._receiveMessage (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:65:20693)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:65:17587
+	at g.fire (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:57:1836)
+	at l.acceptChunk (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:65:12808)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:65:12156
+	at g.fire (/home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:57:1836)
+	at /home/miggys12/.vscode-server/bin/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/out/vs/server/remoteExtensionHostProcess.js:106:18119
+	at afterWrite (_stream_writable.js:490:5)
+	at onwrite (_stream_writable.js:470:7)
+	at InflateRaw.afterTransform (_stream_transform.js:98:3)
+	at Zlib.processCallback (zlib.js:578:8)
+[2021-03-27 14:17:09.941] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-03-27 14:17:10.952] [exthost] [info] exiting with code 0

@@ -1,0 +1,203 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/miggys12/.nvm
+> git status -z -u
+> git symbolic-ref --short HEAD
+fatal: ref HEAD is not a symbolic ref
+> git rev-parse HEAD
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/miggys12/git-basics-lab-phase-0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/git-basics-lab-phase-0/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/miggys12/phase-0-completing-assignments
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/miggys12/phase-0-html-document-structure-lab
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-document-structure-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/miggys12/phase-0-html-experiencing-html-lab
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-experiencing-html-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/miggys12/rubygems
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/rubygems/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :my_list.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-experiencing-html-lab/my_list.html
+> git cat-file -s 5c06a2b9238af15acc126347921cd7bf818073e4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-experiencing-html-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/miggys12/phase-0-html-experiencing-html-lab/my_list.html
+> git cat-file -s 5c06a2b9238af15acc126347921cd7bf818073e4
+> git show --textconv :my_list.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-experiencing-html-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-experiencing-html-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /home/miggys12/phase-0-html-experiencing-html-lab/my_list.html
+> git cat-file -s 5c06a2b9238af15acc126347921cd7bf818073e4
+> git show --textconv :my_list.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-experiencing-html-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :my_list.txt
+> git ls-files --stage -- /home/miggys12/phase-0-html-experiencing-html-lab/my_list.txt
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /home/miggys12/phase-0-html-document-structure-lab
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-document-structure-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-document-structure-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git show --textconv :spec/document_structure_spec.rb
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/spec/document_structure_spec.rb
+> git cat-file -s 3adcf01bd8c836fb12049d21ed68581b86cfcf40
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git show --textconv :spec/document_structure_spec.rb
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/spec/document_structure_spec.rb
+> git cat-file -s 3adcf01bd8c836fb12049d21ed68581b86cfcf40
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git rev-parse --git-dir
+Open repository: /home/miggys12/phase-0-html-tag-lab
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/miggys12/phase-0-html-tag-lab/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-tag-lab/index.html
+> git cat-file -s e82751106fa65be985eb22de46737181893c8c52
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-tag-lab/index.html
+> git cat-file -s e82751106fa65be985eb22de46737181893c8c52
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git show --textconv :spec/first_html_tag_lab_spec.rb
+> git ls-files --stage -- /home/miggys12/phase-0-html-tag-lab/spec/first_html_tag_lab_spec.rb
+> git cat-file -s eaca2d6778d6239af0201144b173c9d892b24528
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-document-structure-lab/index.html
+> git cat-file -s 7c2b3d0d398c1b7e4806a8e17007324223febfc0
+> git show --textconv :index.html
+> git ls-files --stage -- /home/miggys12/phase-0-html-tag-lab/index.html
+> git cat-file -s e82751106fa65be985eb22de46737181893c8c52
